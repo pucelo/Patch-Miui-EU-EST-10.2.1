@@ -1968,3 +1968,13 @@
 
     return-void
 .end method
+
+.method public updateToggleColumns()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/android/systemui/qs/QSFragment;->mContainer:Lcom/android/systemui/qs/QSContainerImpl;
+
+    invoke-virtual {v0}, Lcom/android/systemui/qs/QSContainerImpl;->updateToggleColumns()V
+
+    return-void
+.end method

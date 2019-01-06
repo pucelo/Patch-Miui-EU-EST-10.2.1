@@ -1230,6 +1230,14 @@
     return-void
 .end method
 
+.method static synthetic -wrap1001(Lcom/android/systemui/statusbar/phone/StatusBar;)V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/StatusBar;->refreshStatusBar()V
+
+    return-void
+.end method
+
 .method static synthetic -wrap11(Lcom/android/systemui/statusbar/phone/StatusBar;)V
     .locals 0
 
@@ -7302,6 +7310,19 @@
     goto :goto_1
 .end method
 
+.method private refreshStatusBar()V
+    .locals 3
+
+    :try_start_0
+    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/StatusBar;->updateToggleColumns()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+   
+    return-void
+.end method
+
 .method private registerContentObserver()V
     .locals 6
 
@@ -11280,6 +11301,34 @@
     const/4 v3, 0x0
 
     goto :goto_2
+.end method
+
+.method private updateToggleColumns()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/StatusBar;->mNotificationPanel:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
+
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->updateToggleColumns()V
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/StatusBar;->mContext:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/android/systemui/qs/QuickQSPanel;->getNumQuickTiles(Landroid/content/Context;)I
+
+    move-result v2
+
+    const-class v0, Lcom/android/systemui/tuner/TunerService;
+
+    invoke-static {v0}, Lcom/android/systemui/Dependency;->get(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/android/systemui/tuner/TunerService;
+
+    const-string/jumbo v1, "sysui_qqs_count"
+
+    invoke-virtual {v0, v1, v2}, Lcom/android/systemui/tuner/TunerService;->setValue(Ljava/lang/String;I)V
+
+    return-void
 .end method
 
 .method private userAutohide()V
@@ -24784,6 +24833,12 @@
     invoke-virtual {v0, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string/jumbo v2, "android.intent.action.USER_ADDED"
+
+    move-object/from16 v0, v23
+
+    invoke-virtual {v0, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+	const-string/jumbo v2, "my.intent.action.REFRESH_STATUS_BAR"
 
     move-object/from16 v0, v23
 

@@ -104,33 +104,19 @@
 .method public static getNumQuickTiles(Landroid/content/Context;)I
     .locals 3
 
-    const-class v0, Lcom/android/systemui/tuner/TunerService;
-
-    invoke-static {v0}, Lcom/android/systemui/Dependency;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    check-cast v0, Lcom/android/systemui/tuner/TunerService;
+    const-string v1, "number_toggles_columns"
 
-    const-string/jumbo v2, "sysui_qqs_count"
+    const/4 v2, 0x5
 
-    sget-boolean v1, Lmiui/os/Build;->IS_TABLET:Z
-
-    if-eqz v1, :cond_0
-
-    const/4 v1, 0x6
-
-    :goto_0
-    invoke-virtual {v0, v2, v1}, Lcom/android/systemui/tuner/TunerService;->getValue(Ljava/lang/String;I)I
+    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result v0
 
     return v0
-
-    :cond_0
-    const/4 v1, 0x5
-
-    goto :goto_0
 .end method
 
 

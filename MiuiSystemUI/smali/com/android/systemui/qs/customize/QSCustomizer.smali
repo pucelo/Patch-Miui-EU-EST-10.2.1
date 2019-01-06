@@ -322,6 +322,10 @@
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v2
+	
+	invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->getToggleColumns()I
+
+    move-result v2
 
     const/4 v3, 0x1
 
@@ -931,6 +935,10 @@
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v2
+	
+	invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->getToggleColumns()I
+
+    move-result v2
 
     invoke-direct {p0, v2}, Lcom/android/systemui/qs/customize/QSCustomizer;->getQuickSettingsColumns(I)I
 
@@ -1112,3 +1120,74 @@
     :cond_0
     return-void
 .end method
+
+.method public updateToggleColumns()V
+    .locals 2
+
+    iget-object v0, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
+    move-result-object v0
+
+    iget v0, v0, Landroid/content/res/Configuration;->orientation:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mHeader:Landroid/widget/RelativeLayout;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
+
+    :goto_0
+    invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->getToggleColumns()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mSpanCount:I
+
+    iget-object v1, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mTileAdapter:Lcom/android/systemui/qs/customize/TileAdapter;
+
+    invoke-virtual {v1, v0}, Lcom/android/systemui/qs/customize/TileAdapter;->setSpanCount(I)V
+
+    invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->updateLayout()V
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mHeader:Landroid/widget/RelativeLayout;
+
+    const/16 v1, 0x8
+
+    invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
+
+    goto :goto_0
+.end method
+
+.method private getToggleColumns()I
+    .locals 2
+
+    iget-object v0, p0, Lcom/android/systemui/qs/customize/QSCustomizer;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v1, "number_toggles_columns_expanded"
+
+    const/4 p0, 0x4
+
+    invoke-static {v0, v1, p0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+

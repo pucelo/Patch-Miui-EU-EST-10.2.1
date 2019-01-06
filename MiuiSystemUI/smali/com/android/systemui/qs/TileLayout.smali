@@ -473,7 +473,7 @@
 .end method
 
 .method public updateResources()Z
-    .locals 6
+    .locals 7
 
     const/4 v5, 0x1
 
@@ -488,10 +488,28 @@
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v4
+	
+	
 
     invoke-direct {p0, v4}, Lcom/android/systemui/qs/TileLayout;->getQuickSettingsColumns(I)I
 
     move-result v4
+	
+	iget-object v4, p0, Lcom/android/systemui/qs/TileLayout;->mContext:Landroid/content/Context;
+
+    const-string v6, "number_toggles_columns_expanded"
+
+    invoke-static {v4, v6}, Landroid/preference/MyPreference;->getKeyInt(Landroid/content/Context;Ljava/lang/String;)I
+
+    move-result v4
+
+    const/4 v6, 0x4
+
+    if-ge v4, v6, :cond_jump
+
+    const/4 v4, 0x4
+
+    :cond_jump
 
     invoke-static {v5, v4}, Ljava/lang/Math;->max(II)I
 

@@ -97,3 +97,6 @@
 
 .method public abstract setQsExpansion(FFF)V
 .end method
+
+.method public abstract updateToggleColumns()V
+.end method

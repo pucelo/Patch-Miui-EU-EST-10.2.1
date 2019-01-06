@@ -12100,3 +12100,23 @@
 
     goto :goto_0
 .end method
+
+.method public updateToggleColumns()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mQSCustomizer:Lcom/android/systemui/qs/customize/QSCustomizer;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/android/systemui/qs/customize/QSCustomizer;->updateToggleColumns()V
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mQs:Lcom/android/systemui/plugins/qs/QS;
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Lcom/android/systemui/plugins/qs/QS;->updateToggleColumns()V
+
+    :cond_1
+    return-void
+.end method

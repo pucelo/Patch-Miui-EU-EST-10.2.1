@@ -37,6 +37,26 @@
     invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v7
+	
+	
+	const-string/jumbo v1, "my.intent.action.REFRESH_STATUS_BAR"
+
+    invoke-virtual {v1, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_next_refresh
+
+    move-object/from16 v0, p0
+
+    iget-object v1, v0, Lcom/android/systemui/statusbar/phone/StatusBar$35;->this$0:Lcom/android/systemui/statusbar/phone/StatusBar;
+
+    invoke-static {v1}, Lcom/android/systemui/statusbar/phone/StatusBar;->-wrap1001(Lcom/android/systemui/statusbar/phone/StatusBar;)V
+
+    goto/16 :goto_0
+
+    :cond_next_refresh
+	
 
     const-string/jumbo v1, "android.intent.action.USER_SWITCHED"
 
