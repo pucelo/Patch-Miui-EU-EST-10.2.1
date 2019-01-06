@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_dockedStackDividerSnapMode">2</integer>
+    <integer name="dismiss_button_layout_gravity">0x00800015</integer>
+    <integer name="keyguard_max_notification_count">1</integer>
+    <integer name="miui_volume_dialog_gravity_collapsed">0x00000015</integer>
+    <integer name="miui_volume_dialog_gravity_expanded">0x00000013</integer>
+    <integer name="miui_volume_layout_orientation_expanded">0</integer>
+    <integer name="miui_volume_ringer_layout_orientation">1</integer>
+    <integer name="miui_volume_timer_icon_rotation">90</integer>
+    <integer name="quick_settings_num_columns">5</integer>
+    <integer name="quick_settings_num_rows">2</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">2</integer>
+    <integer name="kg_selector_gravity">0x00000013</integer>
+    <integer name="quick_settings_max_rows">2</integer>
+</resources>

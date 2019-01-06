@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AODView android:id="@id/aod_mode_layout_horizontal" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/aod_left_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="right" android:id="@id/aod_right_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/clock_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clock_container_margin_top">
+        <ImageView android:id="@id/aod_bg" android:layout_width="@dimen/aod_bg_width" android:layout_height="@dimen/aod_bg_height" android:scaleType="fitCenter" />
+        <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/icons_margin_top">
+                <com.android.keyguard.BadgetImageView android:id="@id/first" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.android.keyguard.BadgetImageView android:id="@id/second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/icon_margin_start" />
+                <com.android.keyguard.BadgetImageView android:id="@id/third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/icon_margin_start" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/aod_scrim" android:background="@android:color/black" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" />
+    </FrameLayout>
+</com.android.keyguard.AODView>

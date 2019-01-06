@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:tint="@color/miui_volume_text_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_miui_volume_ringer_mute" />
+    <item android:drawable="@drawable/ic_miui_volume_ringer" />
+</selector>

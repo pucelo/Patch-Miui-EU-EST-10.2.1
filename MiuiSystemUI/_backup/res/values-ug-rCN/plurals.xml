@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">كۆپ ۋەزىپە ئارا يۈزىگە كىرىش ،جەمئىي%dدانە ۋەزىپە بار</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">كۆپ ۋەزىپە ئارا يۈزىگە كىرىش ،جەمئىي%dدانە ۋەزىپە بار،ئۈستىگە سىيرىسە ۋەزىپە تازلىنىدۇ،ئاستىغا سىيرىسە ۋەزىپە قۇلۇپلىنىدۇ</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">%1$sقاتارلىق%2$dدانە ئەپ، چېكىپ كۆرۈڭ</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">جەمئىي %d ئەپ تاللاندى</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d دانە مۇھىم ئەمەس ئۇقتۇرۇش</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">PIN نومۇرىنى خاتا كىرگۈزگەن،يەنە %d قېتىم پۇرسىتىڭىز بار</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">PUK نومۇرىنى خاتا كىرگۈزگەن،يەنە %d قېتىم پۇرسىتىڭىز بار</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">%d سائەتتىن ئارتۇق پارولدا قۇلۇپ ئاچمىغان،پارولنى كىرگۈزۈڭ</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">%d سائەتتىن ئارتۇق پارولدا قۇلۇپ ئاچمىغان، قۇلۇپ ئېچىش رەسىمىنى سىزىڭ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">تەخمىنەن %d سائەت ئىشلەتكىلى بولىدۇ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">تەخمىنەن %d مىنۇت ئىشلەتكىلى بولىدۇ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">تەخمىنەن %1$d小时%2$d مىنۇت ئىشلەتكىلى بولىدۇ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d سائەت</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d مىنۇت</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d سائەت %2$d مىنۇت</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">ئاشقىنى %dسائەت</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">ئاشقىنى %dمىنۇت</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">ئاشقىنى %1$dسائەت %2$d مىنۇت</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN نى كىرگۈزۈڭ، يەنە %d قېتىم سىناش پۇرسىتىڭىز بار</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM كارتا چەكلەندى. PUK نومۇرىنى كىرگۈزۈپ داۋاملاشتۇرۇڭ. يەنە %d قېتىم پۇرسىتىڭىز بار،ئەگەر يەنىلا مەغلۇپ بولسا،SIM كارتىنى مەڭگۈ ئىشلەتكىلى بولمايدۇ.يۈرۈتكۈچى بىلەن ئالاقىلىشىپ تەپسىلاتىنى چۈشىىنىڭ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM كارتا PIN نومۇرى خاتا، يەنە %d قېتىم سىناش پۇرسىتىڭىز بار</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM كارتا PUK نومۇرى خاتا،يەنە %d قېتىم سىناش پۇرسىتىڭىز بار. ئەگەر يەنە خاتا بولسا، SIM كارتىنى مەڭگۈ ئىشلەتكىلى بولمايدۇ</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ئۈسكۈنە قۇلۇپ ھالىتىدە تۇرغىلى %d سائەت بولدى.پارولنى جەزملەڭ</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ئۈسكۈنە قۇلۇپ ھالىتىدە تۇرغىلى %d سائەت بولدى.قۇلۇپ ئېچىش سىزمىسىنى جەزملەڭ</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ئۈسكۈنە قۇلۇپ ھالىتىدە تۇرغىلى %d سائەت بولدى.قۇلۇپ ئېچىش PIN نى جەزملەڭ</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d تال يېڭى ئۇقتۇرۇش</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$s、%2$s ۋە باشقا %3$d تۈر</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">بۇ گۇرۇپپىدا يەنە %s دانە ئۇقتۇرۇش بار</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d دانە ئۇقتۇرۇش تۈرى</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">بۇ ئەپ بەلگىلىگەن 1 دانە ئۇقتۇرۇش تۈرى (جەمئىي %d دانە)</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">%s مىنۇتتىن كېيىن قايتا سىناڭ</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">%s سېكۇنتتىن كېيىن قايتا سىناڭ</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">يۇقىردىكى%1$d سى ئۇقتۇرۇش بالدىقىدا كۆرۈنىدۇ</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">بۇنىڭدا %d دانە ئېكران بار</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">ئوچۇق</item>
+    </plurals>
+</resources>

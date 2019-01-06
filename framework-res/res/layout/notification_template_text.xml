@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_text_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.ImageFloatingTextView android:textAppearance="@style/TextAppearance.Material.Notification" android:textStyle="normal" android:ellipsize="marquee" android:gravity="top" android:layout_gravity="center_vertical" android:id="@id/text" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="@null" />
+    <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Time" android:ellipsize="marquee" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/text_line_2" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="16.0dip" />
+</LinearLayout>

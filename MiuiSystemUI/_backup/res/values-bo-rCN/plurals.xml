@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">ལས་འགན་མང་པོའི་ཤོག་ངོས་ལ་འཛུལ་བ། བསྡོམས་ལས་འགན་%dའདུག</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">ལས་འགན་མང་པོའི་ཤོག་ངོས་ལ་འཛུལ་བ། བསྡོམས་ལས་འགན་%dའདུག ཡར་འཐེན་ན་གཙང་སེལ་དང་། མར་འཐེན་ན་སྒོ་ལྕགས།</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">%1$sསོགས%2$dཉེར་སྤྱོད། མནན་ནས་ལྟ་བཤེར།</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">ཁྱོན་བསྡོམས་བཀོལ་སྤྱོད%dབདམས།</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">གལ་ཆེན་མིན་པའི་བརྡ་ཐོ་ %d</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">PINཨང་ནང་འཇུག་ནོར་འདུག ཚོད་ལྟའི་གྲངས་ལྷག་མ་ %d འདུག</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">PUKཨང་ནང་འཇུག་ནོར་འདུག ཚོད་ལྟའི་གྲངས་ལྷག་མ་%d འདུག</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">ཆུ་ཚོད་%dགསང་གྲངས་སྤྱོད་ནས་སྒོ་ལྕགས་འབྱེད་མེད། གསང་གྲངས་ནང་འཇུག་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">ཆུ་ཚོད་%dགསང་གྲངས་སྤྱོད་ནས་སྒོ་ལྕགས་འབྱེད་མེད། སྒོ་ལྕགས་འབྱེད་པའི་རི་མོ་འབྲི་རོགས།</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">སྤྱིར་ཆུ་ཚོད་%dསྤྱོད་ཐུབ།</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">སྤྱིར་སྐར་མ་%dསྤྱོད་ཐུབ།</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">ཚོད་དཔག་ལྟར་ན་ཆུ་ཚོད་%1$dསྐར་མ་%2$dསྤྱོད་ཐུབ།</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">ཆུ་ཚོད་%d</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">སྐར་མ་%d</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">ཆུ་ཚོད་%1$dསྐར་མ་%2$d</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">ལྷག་མ་ཆུ་ཚོད།%d</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">ལྷག་མ་སྐར་མ་ %d</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">ལྷག་མ་ཆུ་ཚོད་%1$dསྐར་མ་%2$d</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN ནང་འཇུག ཁྱེད་ལ་ད་དུ་ཚོད་ལྟའི་གོ་སྐབས་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ཁྰ་སྤྱོད་མཚམས་བཞག་ཟིན། PUK ཨང་ནང་འཇུག་རྗེས་མུ་མཐུད་དུ་གནང་རོགས། ཁྱེད་ལ་ད་དུང་ཚོད་ལྟའི་གོ་སྐབས་ཐེངས་ %d ཡོད། གལ་ཏེ་ད་དུང་ལེགས་གྲུབ་མ་བྱུང་ན། SIM ནི་ཡོངས་སུ་སྤྱོད་མི་ཐུབ་ངེས། གཉེར་སྐྱོང་ཚོང་ལ་འབྲེལ་བ་བྱས་ནས་ཆ་འཕྲིན་ཞིབ་ཕྲར་རྒྱུས་ལོན་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM ཁྰ་ PIN ཨང་ཡང་དག་མིན། ཁྱེད་ལ་ད་དུང་ཚོད་ལྟའི་གོ་སྐབས་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM ཁྰ་ PUK ཨང་ཡང་དག་མིན། ཁྱེད་ལ་ད་དུང་ཚོད་ལྟའི་གོ་སྐབས་ %d ཡོད། SIM ཁྰ་ནི་ཡོངས་སུ་སྤྱོད་མི་ཐུབ།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">སྒྲིག་ཆས་ནི་སྒོ་ལྕགས་བརྒྱབ་པའི་རྣམ་པར་གནས་ནས་ཆུ་ཚོད་%dརྒྱུན་འཁྱོངས་བྱས་འདུག གསང་ཨང་གཏན་འཁེལ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">སྒྲིག་ཆས་ནི་སྒོ་ལྕགས་བརྒྱབ་པའི་རྣམ་པར་གནས་ནས་ཆུ་ཚོད་%dརྒྱུན་འཁྱོངས་བྱས་འདུག སྒོ་ལྕགས་འབྱེད་པའི་རིས་འབྲི་གཏན་འཁེལ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">སྒྲིག་ཆས་ནི་སྒོ་ལྕགས་བརྒྱབ་པའི་རྣམ་པར་གནས་ནས་ཆུ་ཚོད་%dརྒྱུན་འཁྱོངས་བྱས་འདུག PINཨང་གཏན་འཁེལ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">བརྡ་ཐོ་གསར་པ་རྐང %d</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$sདང་། གཞན་ཚན་པ་%2$s以及另外 %3$d</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ཚོགས་པ་དེའི་ནང་ད་དུང་བརྡ་ཐོ་ %s འདུག</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">"བརྡ་ཐོའི་རིགས་%d "</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">ཉེར་སྤྱོད་དེས་དམིགས་འཛུགས་ཀྱི་བརྡ་ཐོའི་རིགས་གྲས་ 1 （བསྡོམས་ %d ）</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">སྐར་མ་ %s རྗེས་ཡང་ལྟ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">སྐར་ཆ་ %s རྗེས་ཡང་ལྟ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">ཡར་ཕྱོགས་ཀྱི%1$dབསད་སྦར་བརྡ་ཐོའི་ཐོ་གཞུང་དུ་འབྱུང་སྲིད།</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">སྔོན་ལྟའི་ནང་བརྙན་ཤེལ་ %d འདུག</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">གནམ་དྭངས།</item>
+    </plurals>
+</resources>

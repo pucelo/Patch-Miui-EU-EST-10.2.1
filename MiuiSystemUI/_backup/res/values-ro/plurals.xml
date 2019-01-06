@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">S-a deschis Recente, aplicații disponibile: %d.</item>
+        <item quantity="one">S-a deschis Recente, aplicații disponibile: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">S-a deschis Recente, aplicații disponibile: %d. Glisați în sus pentru a elimina, glisați în jos pentru a bloca.</item>
+        <item quantity="one">S-a deschis Recente, aplicații disponibile: %d. Glisați în sus pentru a elimina, glisați în jos pentru a bloca.</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Se ascund notificările de la %1$s &amp; %2$d aplicații.</item>
+        <item quantity="one">Se ascund notificările de la %1$s &amp; %2$d aplicație.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Ascundeţi notificările de la %d aplicaţii?</item>
+        <item quantity="one">Ascundeţi notificările acestei aplicaţii?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d notificări neimportante</item>
+        <item quantity="one">%d notificare neimportantă</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">Cod PIN incorect, %d încercări rămase</item>
+        <item quantity="one">Cod PIN incorect, %d încercare rămasă</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">Cod PUK incorect, %d încercări rămase</item>
+        <item quantity="one">Cod PUK incorect, %d încercare rămasă</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Introducerea parolei este necesară după %d ore de inactivitate</item>
+        <item quantity="one">Introducerea parolei este necesară după %d oră de inactivitate</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Desenarea modelului este necesară după %d ore de inactivitate</item>
+        <item quantity="one">Desenarea modelului este necesară după %d oră de inactivitate</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">Circa %d ore rămase</item>
+        <item quantity="one">Circa %d oră rămasă</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">Circa %d minute rămase</item>
+        <item quantity="one">Circa %d minut rămas</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">Circa %1$d h și %2$d m rămase</item>
+        <item quantity="one">Circa %1$d h și %2$d m rămas</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d h și %2$d m</item>
+        <item quantity="one">%1$d h și %2$d m</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">%d ore disponibile</item>
+        <item quantity="one">%d oră disponibil</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">%d minute disponibile</item>
+        <item quantity="one">%d minut disponibil</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">%1$d h și %2$d m disponibile</item>
+        <item quantity="one">%1$d h și %2$d m disponibil</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introduceți codul PIN SIM, mai aveți %d încercări rămase.</item>
+        <item quantity="one">Introduceți codul PIN SIM, mai aveți %d încercare rămasă până când va trebui să contactați operatorul pentru deblocarea telefonului.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Cartela SIM este acum dezactivată. Introduceți codul PUK pentru a continua. Mai aveți %d încercări rămase până când cartela SIM va deveni permanent inutilizabilă. Contactați operatorul pentru detalii.</item>
+        <item quantity="one">Cartela SIM este acum dezactivată. Introduceți codul PUK pentru a continua. Mai aveți %d încercare rămasă până când cartela SIM va deveni permanent inutilizabilă. Contactați operatorul pentru detalii.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Cod PIN incorect. Mai aveți %d încercări rămase.</item>
+        <item quantity="one">Cod PIN incorect. Mai aveți %d încercare rămasă până când va trebui să contactați operatorul pentru deblocarea telefonului.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Cod PUK incorect, mai aveți %d încercări rămase până când cartela SIM va deveni permanent inutilizabilă.</item>
+        <item quantity="one">Cod PUK incorect, mai aveți %d încercare rămasă până când cartela SIM va deveni permanent inutilizabilă.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Dispozitivul nu a mai fost deblocat de %d ore. Confirmați parola.</item>
+        <item quantity="one">Dispozitivul nu a mai fost deblocat de %d oră. Confirmați parola.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Dispozitivul nu a mai fost deblocat de %d hours. Confirm pattern.</item>
+        <item quantity="one">Dispozitivul nu a mai fost deblocat de %d hour. Confirm pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Dispozitivul nu a mai fost deblocat de %d ore. Confirmați codul PIN.</item>
+        <item quantity="one">Dispozitivul nu a mai fost deblocat de %d oră. Confirmați codul PIN.</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$s, %2$s, și alte %3$d</item>
+        <item quantity="one">%1$s, %2$s, și altă %3$d</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s notificări în plus în interior.</item>
+        <item quantity="one">%s notificare în plus în interior.</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d categorii de notificări</item>
+        <item quantity="one">%d categorie de notificări</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">1 din %d categorii de notificări de la această aplicație</item>
+        <item quantity="one">1 din %d categorie de notificări de la această aplicație</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">Încercați din nou în %d minute</item>
+        <item quantity="one">Încercați din nou într-un minut</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">Încercați din nou în %d secunde</item>
+        <item quantity="one">Încercați din nou într-o secundă</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d butoane de deasupra acestei bare sunt active</item>
+        <item quantity="one">%1$d buton de deasupra acestei bare este active</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ecrane în Overview</item>
+        <item quantity="one">1 ecran în Overview</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Senin</item>
+        <item quantity="one">Senin</item>
+    </plurals>
+</resources>

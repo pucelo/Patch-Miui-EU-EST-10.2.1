@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>འགུལ་རིས་ཁ་རྒྱག</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 0.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 2x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ཚད་ལྡན་ཚད་བཀག</item>
+        <item>སྟེགས་རྒྱབ་འཕེལ་རིམ་མི་ཆོག</item>
+        <item>འཕེལ་རིམ་1ལས་བརྒལ་མི་ཆོག</item>
+        <item>འཕེལ་རིམ་2ལས་བརྒལ་མི་ཆོག</item>
+        <item>འཕེལ་རིམ་3ལས་བརྒལ་མི་ཆོག</item>
+        <item>འཕེལ་རིམ་4ལས་བརྒལ་མི་ཆོག</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>སྦགས་བཙོག་མི་འདུག</item>
+        <item>རབ།</item>
+        <item>བཟང་།</item>
+        <item>ཚད་ཆུང་།</item>
+        <item>ཚད་འབྲིང་།</item>
+        <item>ཚད་ལྕི།</item>
+        <item>ཚབས་ཆེན།</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>%1$s</item>
+        <item>མཁའ་དབུགས་%1$s</item>
+        <item>མཁའ་དབུགས་%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ཀུན་བརྒྱ་ཆའི་གྲངས་མངོན་འཆར།</item>
+        <item>གློག་གསོག་སྐབས་བརྒྱ་ཆའི་གྲངས་མངོན་འཆར（སོར་འཇོག）</item>
+        <item>པར་རྟགས་འདི་མངོན་འཆར་མི་བྱེད།</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>16 གཟུགས་/མ་དཔེ།</item>
+        <item>24 གཟུགས་/མ་དཔེ།</item>
+        <item>32 གཟུགས་/མ་དཔེ།</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>16 གཟུགས་/མ་དཔེ།</item>
+        <item>24 གཟུགས་/མ་དཔེ།</item>
+        <item>32 གཟུགས་/མ་དཔེ།</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>སྒྲ་ལམ་རྐྱང་པ།</item>
+        <item>དངོས་སྣང་སྒྲ།</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>སྒྲ་ལམ་རྐྱང་པ།</item>
+        <item>དངོས་སྣང་སྒྲ།</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>སྒྲ་ཟློས་སྤུས་ཚད་ལ་ཕྱོགས་པ།</item>
+        <item>སྒྲ་ཟློས་དང་སྦྲེལ་མཐུད་སྤུས་ཚད་ཀུན་ལ་དོ་སྣང་།</item>
+        <item>སྦྲེལ་མཐུད་སྤུས་ཚད་ལ་དོ་སྣང་།</item>
+        <item>དེ་ལས་ལེགས་པའི་སྒྲ་སྤུས་གང་ཐུབ་ཀྱིས་འདོན་སྤྲོད།（རང་འཚམས་པི་ཐེ་ཕྱོད）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>སྒྲ་ཟློས་སྤུས་ཚད་ལ་ཕྱོགས་པ། (990kbps/909kbps)</item>
+        <item>སྒྲ་ཟློས་དང་སྦྲེལ་མཐུད་སྤུས་ཚད་གཉིས་ཀར་ཕྱོགས་པ (660kbps/606kbps)</item>
+        <item>སྦྲེལ་མཐུད་སྤུས་ཚད་ལ་ཕྱོགས་པ། (330kbps/303kbps)</item>
+        <item>དེ་ལས་ལེགས་པའི་སྒྲ་སྤུས་གང་ཐུབ་ཀྱིས་འདོན་སྤྲོད།（རང་འཚམས་པི་ཐེ་ཕྱོད）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>འདེམ་ཆོག་པའི་ཨང་རྩོམ་ཆས་སྒུལ་སྤྱོད།</item>
+        <item>འདེམ་ཆོག་པའི་ཨང་རྩོམ་ཆས་སྤྱོད་མཚམས་འཇོག</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>བརྒྱུད་ཁོངས་གདམ་གསེས་བེད་སྤྱོད།（སོར་འཇོག）</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>འདེམ་ཆོག་པའི་ཨང་རྩོམ་ཆས་སྒུལ་སྤྱོད།</item>
+        <item>འདེམ་ཆོག་པའི་ཨང་རྩོམ་ཆས་སྤྱོད་མཚམས་འཇོག</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4（སོར་འཇོག）</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="carrier_name">
+        <item>ཀྲུང་གོའི་སྒུལ་འཕྲིན།</item>
+        <item>ཀྲུང་གོའིའབྲེལ་འཕྲིན།</item>
+        <item>ཀྲུང་གོའི་གློག་འཕྲིན།</item>
+        <item>SmarToneVodafone</item>
+    </string-array>
+    <string-array name="carrier_simple_name">
+        <item>སྒུལ་འཕྲིན།</item>
+        <item>འབྲེལ་འཕྲིན།</item>
+        <item>གློག་འཕྲིན།</item>
+        <item>SMC HK</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ཆུ་ཚོད། སྐར་མ། སྐར་ཆ་མངོན་འཆར།</item>
+        <item>ཆུ་ཚོད་དང་སྐར་མ་མངོན་འཆར（སོར་འཇོག）</item>
+        <item>པར་རྟགས་འདི་མངོན་འཆར་མི་བྱེད།</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>སྣོན་པའི་ཚོན་མདོག</item>
+        <item>མིག་གིས་མཐོང་བའི་རང་བྱུང་ཚོན་མདོག</item>
+        <item>ཨང་ཀིའི་ནང་དོན་ལ་དམིགས་ནས་ལེགས་བཅོས་བྱས་པའི་ཚོན་མདོག</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>གསལ་ལ་བཀྲ་བ（སོར་འཇོག）</item>
+        <item>རང་བྱུང་།</item>
+        <item>ཚད་ལྡན།</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ཁ་རྒྱག</item>
+        <item>རིས་འབྲི་ཚད་བརྒལ་ཁུལ་མངོན་པ།</item>
+        <item>ལྗང་མདོག་མིག་ཤེད་ཞན་པའི་ནད་པ་བལྟ་བར་འོས་འཚམས་ཡིན་པའི་ཁུལ་མངོན་པ།</item>
+    </string-array>
+    <string-array name="debug_hw_renderer_entries">
+        <item>OpenGL（སོར་འཇོག）</item>
+        <item>OpenGL (Skia)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>མི་འདུག</item>
+        <item>Logcat</item>
+        <item>Systrace（འདྲ་རིས）</item>
+        <item>glGetError སྟེང་གི་སྙོམ་བཀོལ་འདུས་དྲས།</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ཀུན་ལ་ HDCP བརྟག་དཔྱད་མི་སྤྱོད་པ།</item>
+        <item>HDCP གཅིག་པུ་སྤྱོད་ནས་ DRM ནང་དོན་ལ་བརྟག་དཔྱད།</item>
+        <item>རྟག་ཏུ་སྤྱོད་ནས་ HDCP བརྟག་དཔྱད།</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>གཏན་ནས་བརྟག་དཔྱད་མི་བྱ།</item>
+        <item>" DRM ནང་དོན་གཅིག་པུར་བརྟག་དཔྱད།"</item>
+        <item>རྟག་ཏུ་བརྟག་དཔྱད།</item>
+    </string-array>
+    <string-array name="miui_volume_timer_segments_title">
+        <item>ཁ་རྒྱག</item>
+        <item>ཆུ་ཚོད་ཕྱེད་ཀ</item>
+        <item>ཆུ་ཚོད་1</item>
+        <item>ཆུ་ཚོད་2</item>
+        <item>ཆུ་ཚོད་8</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>དྲས་སྦྱར་པང་།</item>
+        <item>འཐེབ་ཨང་།</item>
+        <item>འཐེབ་བཀྱག་བརྗེ་འགྱུར་ཆས།</item>
+        <item>མེད།</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>དཀྱུས་མ།</item>
+        <item>དམ་ཟབ།</item>
+        <item>གཡོན་ཕྱོགས།</item>
+        <item>གཡོན་ལ་ཕྱོགས།</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>མེད།</item>
+        <item>480p</item>
+        <item>480p（བདེ་འཇགས）</item>
+        <item>720p</item>
+        <item>720p（བདེ་འཇགས）</item>
+        <item>1080p</item>
+        <item>1080p（བདེ་འཇགས）</item>
+        <item>4K</item>
+        <item>4K（བདེ་འཇགས）</item>
+        <item>4K（བརྙན་སྤུས་མཐོར་འདེགས）</item>
+        <item>4K（བརྙན་སྤུས་མཐོར་འདེགས། བདེ་འཇགས）</item>
+        <item>720p，1080p（བརྙན་ཟུང་）</item>
+    </string-array>
+    <array name="recents_blacklist_array" />
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ཁ་རྒྱག</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ཁ་རྒྱག</item>
+        <item>ཉིན་ཐོ་བསྡུས་གསོག་ཁུལ་རེ་རེར་ 64K</item>
+        <item>ཉིན་ཐོ་བསྡུས་གསོག་ཁུལ་རེ་རེར་ 256K</item>
+        <item>ཉིན་ཐོ་བསྡུས་གསོག་ཁུལ་རེ་རེར་ 1M</item>
+        <item>ཉིན་ཐོ་བསྡུས་གསོག་ཁུལ་རེ་རེར་ 4M</item>
+        <item>ཉིན་ཐོ་བསྡུས་གསོག་ཁུལ་རེ་རེར་ 16M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ཁ་རྒྱག</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ཁ་རྒྱག</item>
+        <item>ཉིན་ཐོ་ཡོངས་ཀྱི་བར་གསོག་ཁུལ།</item>
+        <item>སྐུད་མེད་གློག་ཉིན་ཐོ་བར་གསོག་ཁུལ་ཡོངས།</item>
+        <item>ནང་སྙིང་ཉིན་ཐོ་བར་གསོག་ཁུལ་གཅིག་པུ།</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ཁ་རྒྱག</item>
+        <item>ཚང་མ།</item>
+        <item>སྐུད་མེད་གློག་ཡོངས།</item>
+        <item>ནང་སྙིང་གཅིག་པུ།</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ཁ་རྒྱག</item>
+        <item>གྲུ་བཞི་ནར་མོ་དྲས་གྲུབ་ཁུལ་དུ་ཚོན་མདོག་སྔོན་པོ་ཁ་སྐོང་།</item>
+        <item>ཚོན་མདོག་ལྗང་ཁུས་རིས་འབྲིའི་བཀའ་རྒྱ་གཙོར་བཏོན་བྱེད།</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ཁ་རྒྱག</item>
+        <item>བརྙན་ཤེལ་སྟེང་ནར་དབྱིབས་རིས་མངོན་པ།</item>
+        <item>adb shell dumpsys gfxinfo ནང་ཡོད།</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>འགུལ་རིས་ཁ་རྒྱག</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 0.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 2x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ཧ་ཅང་དལ།</item>
+        <item>དལ།</item>
+        <item>རྒྱུན་གཏན།</item>
+        <item>མགྱོགས།</item>
+        <item>ཅུང་མགྱོགས།</item>
+        <item>ཤིན་ཏུ་མགྱོགས།</item>
+        <item>ཤིན་ཏུ་མགྱོགས།</item>
+        <item>ཤིན་ཏུ་མགྱོགས།</item>
+        <item>ཤིན་ཏུ་མགྱོགས།</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>གློག་གསོག</item>
+        <item>MTP（སྨྱན་བྱད་བརྒྱུད་སྐྱེལ་གྲོས་མཐུན）</item>
+        <item>PTP（པར་རིས་བརྒྱུད་སྐྱེལ་གྲོས་མཐུན）</item>
+        <item>RNDIS（USB ཨེ་ཐེར་དྲྭ་བ）</item>
+        <item>སྒྲ་ཟློས་ཡོང་ཁུངས།</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>གནམ་དྭངས།</item>
+        <item>སྤྲིན་མང་།</item>
+        <item>གནམ་འཐིབས།</item>
+        <item>སྨུག་པ་འཐིབས།</item>
+        <item>དྲག་ཆར་ཤིན་ཏུ་ཆེན་པོ།</item>
+        <item>དྲག་ཆར་ཆེན་པོ།</item>
+        <item>དྲག་ཆར།</item>
+        <item>སྐད་ཅིག་འབྲུག་ཆར།</item>
+        <item>ཐོལ་ཆར།</item>
+        <item>ཆར་ཆེན།</item>
+        <item>ཆར་འབྲིང་།</item>
+        <item>ཆར་ཆུང་།</item>
+        <item>ཁ་ཆར་འདྲེས་མ།</item>
+        <item>ཁ་བ་དྲག་པོ།</item>
+        <item>ཁ་བ་ཅུང་ཟད།</item>
+        <item>ཁ་བ་ཆེན་པོ།</item>
+        <item>ཁ་བ་འབྲིང་ཙམ།</item>
+        <item>ཁ་བ་ཆུང་ཆུང་།</item>
+        <item>བྱེ་རླུང་འཚུབ་མ་དྲག་པོ།</item>
+        <item>བྱེ་རླུང་འཚུབ་མ།</item>
+        <item>བྱེ་རྡུལ།</item>
+        <item>བྱེ་རླུང་།</item>
+        <item>སེར་བ།</item>
+        <item>ཐལ་རྡུལ།</item>
+        <item>རྡུལ་ཞག</item>
+        <item>འཁྱགས་ཆར།</item>
+        <item></item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>བཤེར་འབེབས་བྱེད་བཞིན་པ།...</item>
+        <item>སྦྲེལ་མཐུད་བྱེད་བཞིན་ཡོད་...</item>
+        <item>ཐོབ་ཐང་ར་སྤྲོད་བྱེད་བཞིན་ཡོད།...</item>
+        <item>IPས་གནས་ཐོབ་ལེན་བྱེད་བཞིན་པ།...</item>
+        <item>སྦྲེལ་ཟིན།</item>
+        <item>མཚམས་འཇོག་ཟིན།</item>
+        <item>སྦྲེལ་མཐུད་གཅོད་བཞིན་པ།...</item>
+        <item>སྦྲེལ་མཐུད་ཆད་ཟིན།</item>
+        <item>ལེགས་འགྲུབ་མ་བྱུང་བ།</item>
+        <item>སྤྱོད་མཚམས་བཞག་ཟིན།</item>
+        <item>གནས་སྐབས་སུ་ཁ་རྒྱག་པ（དྲ་རྒྱའི་གནས་ཚུལ་མི་ལེགས）</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>བཤེར་འབེབས་བྱེད་བཞིན་པ།...</item>
+        <item>%1$sསྦྲེལ་བཞིན་པ།</item>
+        <item>%1$sབརྒྱུད་དེ་ཐོབ་ཐང་ར་སྤྲོད་བྱེད་བཞིན་ཡོད།...</item>
+        <item>%1$sལས་IPས་གནས་ཐོབ་ལེན་བྱེད་བཞིན་པ།</item>
+        <item>" %1$sསྦྲེལ་འདུག"</item>
+        <item>མཚམས་འཇོག་ཟིན།</item>
+        <item>" %1$sདང་སྦྲེལ་མཐུད་གཅོད་བཞིན་པ།"</item>
+        <item>སྦྲེལ་མཐུད་ཆད་ཟིན།</item>
+        <item>ལེགས་འགྲུབ་མ་བྱུང་བ།</item>
+        <item>སྤྱོད་མཚམས་བཞག་ཟིན།</item>
+        <item>གནས་སྐབས་སུ་ཁ་རྒྱག་པ（དྲ་རྒྱའི་གནས་ཚུལ་མི་ལེགས）</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>འགུལ་རིས་ཁ་རྒྱག</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 0.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 1.5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 2x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 5x</item>
+        <item>འགུལ་རིས་ཆུང་གཏོང་ 10x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>མི་སྒེར།</item>
+        <item>ལས་ཀ</item>
+        <item>གཞན།</item>
+        <item>རང་སྒྲུབ།</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>ཀྲུང་གོའི་ཡ་ཧུའུ།</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ལས་ཁུངས།</item>
+        <item>གཞན།</item>
+        <item>རང་སྒྲུབ།</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>སྡོད་ཁང་།</item>
+        <item>ཁ་པར།</item>
+        <item>ལས་ཁུངས།</item>
+        <item>ལས་ཁུངས་ཀྱི་བརྙན་སྐྱེལ།</item>
+        <item>སྡོད་ཁང་གི་བརྙན་སྐྱེལ།</item>
+        <item>གློག་འཕྲིན་སྐད་བརྡ་གཏོང་ཆས།</item>
+        <item>གཞན།</item>
+        <item>རང་སྒྲུབ་</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>སྡོད་ཁང་།</item>
+        <item>ལས་ཁུངས།</item>
+        <item>གཞན།</item>
+        <item>རང་སྒྲུབ།</item>
+    </string-array>
+    <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>སྡོད་ཁང་།</item>
+        <item>ལས་ཀ</item>
+        <item>གཞན།</item>
+        <item>རང་སྒྲུབ།</item>
+    </string-array>
+    <string-array name="network_switch_type_name">
+        <item>སྤོ་སྒུལ་གཞི་གྲངས་དྲ་རྒྱ།</item>
+        <item>WLAN</item>
+        <item>སོ་སྔོན།</item>
+        <item>ཨི་ཐེར་དྲ་རྒྱ།</item>
+        <item>VPN</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>WLAN བརྒྱུད་ནས་ཁ་པར་རྒྱག་པ་དང་འཕྲིན་ཐུང་བསྐུར་དགོས་ན། སྔོན་ལ་ཁྱེད་ཀྱི་གཉེར་སྐྱོང་ཚོང་པར་ཞབས་ཞུ་དེ་ཁ་འབྱེད་བཅུག་ནས། “སྒྲིག་འགོད”ནང་ཡང་བསྐྱར་WLANའཕྲིན་གཏོང་བྱེད་ནུས་ཁ་འབྱེད་རོགས།</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>ཁྱེད་ཀྱི་གཉེར་སྐྱོང་ཚོང་ལ་ཐོ་འགོད།</item>
+    </string-array>
+    <string-array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>%s WLAN འཕྲིན་གཏོང་བྱེད་ནུས།</item>
+    </string-array>
+</resources>

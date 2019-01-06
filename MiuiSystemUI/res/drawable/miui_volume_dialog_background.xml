@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?miui:colorPrimary" />
+    <corners android:radius="@dimen/miui_volume_bg_radius" />
+    <padding android:left="@dimen/miui_volume_bg_padding" android:top="@dimen/miui_volume_bg_padding" android:right="@dimen/miui_volume_bg_padding" android:bottom="@dimen/miui_volume_bg_padding" />
+</shape>

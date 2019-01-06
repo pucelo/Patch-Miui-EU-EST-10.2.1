@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Csevegő</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Munkahelyi</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Otthoni</item>
+        <item>Mobil</item>
+        <item>Munkahelyi</item>
+        <item>Munkahelyi fax</item>
+        <item>Otthoni fax</item>
+        <item>Személyhívó</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Próbálja meg bekapcsolni a Wi-Fi-t</item>
+        <item>Próbálja meg bekapcsolni a BT-t</item>
+    </string-array>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Próbálja újra</item>
+        <item></item>
+        <item></item>
+        <item>Fedje le teljesen az ujjlenyomat-olvasót és gyakoroljon rá nyomást</item>
+        <item></item>
+        <item>Fedje le teljesen az ujjlenyomat-olvasót és gyakoroljon rá nyomást</item>
+        <item>Fedje le teljesen az ujjlenyomat-olvasót és gyakoroljon rá nyomást</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Túl gyors! Nem sikerült az ujjlenyomat felismerés</item>
+        <item>Mozgassa kiséé az ujját és próbálja újra</item>
+        <item>Emelje fel az ujját és tegye vissza újra az ujjlenyomat-olvasóra</item>
+        <item>Tartsa az ujját az ujjlenyomat-olvasón egy kcisit tovább</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Kicsit mozgassa az ujját</item>
+        <item>Ez az ujjlenyomat már hozzá lett adva, használjon egy másikat</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>47162494</item>
+        <item>19503304</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>Ha Wi-Fi-hálózaton szeretne telefonálni és üzenetet küldeni, kérje meg szolgáltatóját, hogy állítsa be ezt a szolgáltatást. Ezután kapcsolja be újra a Wi-Fi-hívást a Beállításokban. (Hibakód: %1$s)</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Regisztráljon a szolgáltatójánál (hibakód: %1$s)</item>
+    </string-array>
+    <string-array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>%s Wi-Fi hívás</item>
+    </string-array>
+</resources>

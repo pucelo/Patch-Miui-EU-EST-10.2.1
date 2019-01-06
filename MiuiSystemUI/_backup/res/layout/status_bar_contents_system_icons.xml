@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" style="@style/StatusBarSystemIconsContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/system_icons" />
+</com.android.keyguard.AlphaOptimizedLinearLayout>

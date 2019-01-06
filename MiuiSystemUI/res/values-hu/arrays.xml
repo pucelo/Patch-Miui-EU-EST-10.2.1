@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="miui_volume_timer_segments_title">
+        <item>Kikapcsolva</item>
+        <item>30 perc</item>
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>8 óra</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Tiszta</item>
+        <item>Felhős</item>
+        <item>Borult</item>
+        <item>Ködös</item>
+        <item>Felhőszakadás</item>
+        <item>Zápor</item>
+        <item>Felhőszakadás</item>
+        <item>Zivatar</item>
+        <item>Zápor</item>
+        <item>Heves esőzés</item>
+        <item>Gyenge eső</item>
+        <item>Szemerkélő eső</item>
+        <item>Havas eső</item>
+        <item>Hóvihar</item>
+        <item>Havazás</item>
+        <item>Hózápor</item>
+        <item>Mérsékelt havazás</item>
+        <item>Gyenge havazás</item>
+        <item>Erős homokvihar</item>
+        <item>Homokvihar</item>
+        <item>Poros</item>
+        <item>Szeles</item>
+        <item>Jégeső</item>
+        <item>Poros</item>
+        <item>Köd</item>
+        <item>Ónos eső</item>
+        <item></item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+</resources>

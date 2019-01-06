@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationInfo android:theme="@android:style/Theme.DeviceDefault.Light" android:orientation="horizontal" android:id="@id/notification_guts" android:background="@color/notification_guts_bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/notification_setting_content_base" />
+</com.android.systemui.statusbar.NotificationInfo>

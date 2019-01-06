@@ -1,0 +1,39 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MiuiSystemUI.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- ttf
+- otf
+- xml
+- res/raw/megviifacepp_model
+- res/raw/panorama_mgb
+- res/raw/panorama_mgb_opencl
+- res/raw/panorama_mgb_s1
+- res/raw/panorama_mgb_s2
+- maml
+- ivt
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '27'
+  targetSdkVersion: '27'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  mistats_version: '8'
+  com/xiaomi/xmsf/push/service/IHttpService.aidl: '8'
+  com/xiaomi/xmsf/push/service/IStatService.aidl: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  - 17
+  tag: null
+version: 2.3.4_0503
+versionInfo:
+  versionCode: '201806280'
+  versionName: '20180628.0'

@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: framework-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+- xml
+- frag
+- vert
+- csv
+- html
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '1'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '27'
+  targetSdkVersion: '27'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework: null
+version: 2.3.4_0503
+versionInfo:
+  versionCode: '27'
+  versionName: 8.1.0

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_bar_height">130.0px</dimen>
+    <dimen name="navigation_bar_height_landscape">130.0px</dimen>
+    <dimen name="navigation_bar_width">130.0px</dimen>
+    <dimen name="notification_action_height">50.0dip</dimen>
+    <dimen name="notification_action_list_height">50.0dip</dimen>
+    <dimen name="notification_action_min_width">45.799988dip</dimen>
+    <dimen name="notification_content_margin_bottom">12.669983dip</dimen>
+    <dimen name="notification_content_margin_end">12.329987dip</dimen>
+    <dimen name="notification_content_margin_start">55.329987dip</dimen>
+    <dimen name="notification_content_margin_top">11.669983dip</dimen>
+    <dimen name="notification_content_picture_margin">41.25dip</dimen>
+    <dimen name="notification_header_height">40.0dip</dimen>
+    <dimen name="notification_header_icon_size">16.669983dip</dimen>
+    <dimen name="notification_height">63.0dip</dimen>
+    <dimen name="notification_icon_margin_bottom">12.0dip</dimen>
+    <dimen name="notification_icon_margin_start">10.669983dip</dimen>
+    <dimen name="notification_icon_margin_top">12.0dip</dimen>
+    <dimen name="notification_messaging_spacing">2.3299866dip</dimen>
+    <dimen name="notification_normal_icon_height">36.669983dip</dimen>
+    <dimen name="notification_normal_icon_width">36.669983dip</dimen>
+    <dimen name="notification_padding_bottom">10.0dip</dimen>
+    <dimen name="notification_padding_top">10.0dip</dimen>
+    <dimen name="notification_progress_bar_height">2.669983dip</dimen>
+    <dimen name="notification_progress_margin_top">8.0dip</dimen>
+    <dimen name="notification_subtext_size">10.0sp</dimen>
+    <dimen name="notification_text_margin_top">2.669983dip</dimen>
+    <dimen name="notification_text_size">12.0sp</dimen>
+    <dimen name="notification_title_text_size">12.669983sp</dimen>
+    <dimen name="notification_up_arrow_margin_end">10.899994dip</dimen>
+    <dimen name="status_bar_height">24.0dip</dimen>
+</resources>

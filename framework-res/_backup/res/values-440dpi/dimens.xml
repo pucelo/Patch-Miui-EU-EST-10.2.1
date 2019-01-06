@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_media_notification_content_padding">16.72998dip</dimen>
+    <dimen name="media_notification_app_name_margin_bottom">3.6399841dip</dimen>
+    <dimen name="media_notification_content_margin_start">16.0dip</dimen>
+    <dimen name="media_notification_content_vertical_margin">16.72998dip</dimen>
+    <dimen name="media_notification_icon_margin_end">13.089996dip</dimen>
+    <dimen name="media_notification_icon_size">63.26999dip</dimen>
+    <dimen name="navigation_bar_height">47.19998dip</dimen>
+    <dimen name="navigation_bar_height_landscape">47.19998dip</dimen>
+    <dimen name="navigation_bar_width">47.19998dip</dimen>
+    <dimen name="notification_action_height">54.549988dip</dimen>
+    <dimen name="notification_action_list_height">54.549988dip</dimen>
+    <dimen name="notification_action_min_width">50.0dip</dimen>
+    <dimen name="notification_content_margin_bottom">13.819977dip</dimen>
+    <dimen name="notification_content_margin_end">13.449982dip</dimen>
+    <dimen name="notification_content_margin_start">60.359985dip</dimen>
+    <dimen name="notification_content_margin_top">12.72998dip</dimen>
+    <dimen name="notification_content_picture_margin">45.0dip</dimen>
+    <dimen name="notification_header_height">43.639984dip</dimen>
+    <dimen name="notification_header_icon_size">18.189972dip</dimen>
+    <dimen name="notification_icon_margin_bottom">13.089996dip</dimen>
+    <dimen name="notification_icon_margin_start">11.639984dip</dimen>
+    <dimen name="notification_icon_margin_top">13.089996dip</dimen>
+    <dimen name="notification_messaging_spacing">2.539978dip</dimen>
+    <dimen name="notification_normal_icon_height">40.0dip</dimen>
+    <dimen name="notification_normal_icon_width">40.0dip</dimen>
+    <dimen name="notification_progress_bar_height">2.9099731dip</dimen>
+    <dimen name="notification_progress_margin_top">8.72998dip</dimen>
+    <dimen name="notification_subtext_size">10.909973sp</dimen>
+    <dimen name="notification_text_margin_top">2.9099731dip</dimen>
+    <dimen name="notification_text_size">13.089996sp</dimen>
+    <dimen name="notification_title_text_size">13.819977sp</dimen>
+    <dimen name="notification_up_arrow_margin_end">11.889984dip</dimen>
+</resources>

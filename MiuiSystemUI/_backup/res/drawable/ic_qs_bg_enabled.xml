@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/qs_tile_icon_bg_size" android:width="@dimen/qs_tile_icon_bg_size" android:viewportWidth="138.0" android:viewportHeight="138.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="4.0" android:translateY="4.0">
+        <path android:fillColor="@color/qs_tile_icon_bg_enabled_color" android:pathData="M130 65A65 65 0 0 1 65 130 65 65 0 0 1 0 65 65 65 0 0 1 65 0 65 65 0 0 1 130 65Z" />
+    </group>
+</vector>

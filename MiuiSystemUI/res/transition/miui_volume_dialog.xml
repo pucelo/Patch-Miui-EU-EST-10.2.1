@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:duration="@integer/miui_volume_expand_animation_duration" android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:interpolator="@interpolator/miui_volume_decelerate_quart" android:fadingMode="fade_out" />
+    <changeBounds android:interpolator="@interpolator/miui_volume_decelerate_quart" />
+    <fade android:interpolator="@interpolator/miui_volume_decelerate_quart" android:fadingMode="fade_in" />
+</transitionSet>
