@@ -135,8 +135,79 @@
     return v0
 .end method
 
+.method private getToggleRow()I
+    .locals 2
+
+    iget-object v0, p0, Lcom/android/systemui/qs/TileLayout;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v1, "set_toggles_row"
+
+    const/4 p0, 0x3
+
+    invoke-static {v0, v1, p0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
 
 # virtual methods
+.method public getNewDimensionPixelSize()I
+    .locals 4
+
+    iget-object v0, p0, Lcom/android/systemui/qs/TileLayout;->mContext:Landroid/content/Context;
+
+    const-string v1, "set_toggles_row"
+
+    invoke-static {v0, v1}, Landroid/preference/MyPreference;->getKeyInt(Landroid/content/Context;Ljava/lang/String;)I
+
+    move-result v1
+
+    const v2, 0x2
+
+    if-eq v1, v2, :cond_0
+
+    const v2, 0x4
+
+    if-eq v1, v2, :cond_1
+
+    const-string v1, "qs_tile_content_height"
+
+    goto :goto_0
+
+    :cond_0
+    const-string v1, "qs_tile_content_height_small"
+
+    goto :goto_0
+
+    :cond_1
+    const-string v1, "qs_tile_content_height_big"
+
+    :goto_0
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const-string v2, "dimen"
+
+    const-string v3, "com.android.systemui"
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public addTile(Lcom/android/systemui/qs/QSPanel$TileRecord;)V
     .locals 2
 
@@ -522,7 +593,13 @@
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v4
+	
+	
+	invoke-direct {p0}, Lcom/android/systemui/qs/TileLayout;->getToggleRow()I
 
+    move-result v4
+	
+	
     invoke-static {v5, v4}, Ljava/lang/Math;->max(II)I
 
     move-result v3
@@ -530,6 +607,10 @@
     const v4, 0x7f070370
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result v1
+
+	invoke-virtual {p0}, Lcom/android/systemui/qs/TileLayout;->getNewDimensionPixelSize()I
 
     move-result v1
 
