@@ -489,11 +489,11 @@
 
     move-result v4
 	
-	
-
-    invoke-direct {p0, v4}, Lcom/android/systemui/qs/TileLayout;->getQuickSettingsColumns(I)I
+	invoke-direct {p0, v4}, Lcom/android/systemui/qs/TileLayout;->getQuickSettingsColumns(I)I
 
     move-result v4
+
+    
 	
 	iget-object v4, p0, Lcom/android/systemui/qs/TileLayout;->mContext:Landroid/content/Context;
 
@@ -510,6 +510,8 @@
     const/4 v4, 0x4
 
     :cond_jump
+	
+	
 
     invoke-static {v5, v4}, Ljava/lang/Math;->max(II)I
 

@@ -1192,15 +1192,13 @@
     goto :goto_0
 .end method
 .method public updateToggleColumns()V
-    .locals 1
+    .locals 2
 
     iget-object v0, p0, Lcom/android/systemui/qs/QSContainerImpl;->mQSPanel:Lcom/android/systemui/qs/QSPanel;
 
-    invoke-virtual {v0}, Lcom/android/systemui/qs/QSPanel;->updateResources()V
+    const/4 v1, 0x0
 
-    iget-object v0, p0, Lcom/android/systemui/qs/QSContainerImpl;->mQuickQsPanel:Lcom/android/systemui/qs/QuickQSPanel;
-
-    invoke-virtual {v0}, Lcom/android/systemui/qs/QuickQSPanel;->updateResources()V
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSPanel;->updateResources(Z)V
 
     return-void
 .end method

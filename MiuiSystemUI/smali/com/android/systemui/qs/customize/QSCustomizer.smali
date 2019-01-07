@@ -1111,6 +1111,8 @@
 
     invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->updateHeaderAndColumns()V
 
+	invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->getToggleColumns()I
+
     invoke-direct {p0}, Lcom/android/systemui/qs/customize/QSCustomizer;->updateCustomizerText()V
 
     if-eqz p1, :cond_0
