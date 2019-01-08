@@ -1750,4 +1750,16 @@ Do you want to close it?"</string>
     <string name="zen_mode_forever_dnd">Until you turn off Do Not Disturb</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">Until %1$s</string>
+    <string name="press_color_to_apply">Click on the color to select</string>
+    <string name="auto_app_launch">Application for launch</string>
+    <string name="config_geofenceServicesProvider">com.qualcomm.location</string>
+    <string name="cat_1">Cleaning is in progress...</string>
+    <string name="cat_2">Bluetooth disabled</string>
+    <string name="cat_3">Bluetooth enabled</string>
+    <string name="cat_4">Mobile data is disabled</string>
+    <string name="cat_5">Mobile data is enabled</string>
+    <string name="cat_6">Wi-Fi disabled</string>
+    <string name="cat_7">Wi-Fi enabled</string>
+    <string name="hide_app_icon">Shortcuts on the desktop</string>
+    <string name="not_setup_app">The voice assistant application is not configured</string>
 </resources>

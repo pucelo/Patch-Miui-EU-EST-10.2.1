@@ -495,4 +495,34 @@
     <item type="id" name="zoomOut">false</item>
     <item type="id" name="zoom_fit_page">false</item>
     <item type="id" name="zoom_page_overview">false</item>
+    <item type="id" name="text_hex_wrapper">false</item>
+    <item type="id" name="hex_text">false</item>
+    <item type="id" name="hex">false</item>
+    <item type="id" name="enter">false</item>
+    <item type="id" name="color_picker_view">false</item>
+    <item type="id" name="white_panel">false</item>
+    <item type="id" name="black_panel">false</item>
+    <item type="id" name="blue_panel">false</item>
+    <item type="id" name="red_panel">false</item>
+    <item type="id" name="green_panel">false</item>
+    <item type="id" name="yellow_panel">false</item>
+    <item type="id" name="old_color_panel">false</item>
+    <item type="id" name="new_color_panel">false</item>
+    <item type="id" name="iconForHideApp">false</item>
+    <item type="id" name="HideAppIcon">false</item>
+    <item type="id" name="HideAppName">false</item>
+    <item type="id" name="HideAppPackage">false</item>
+    <item type="id" name="HideAppCheck">false</item>
+    <item type="id" name="searchHideApp">false</item>
+    <item type="id" name="appsHideList">false</item>
+    <item type="id" name="progressBarHideApp">false</item>
+    <item type="id" name="iconForApp">false</item>
+    <item type="id" name="appIcon">false</item>
+    <item type="id" name="appName">false</item>
+    <item type="id" name="appPackage">false</item>
+    <item type="id" name="searchApp">false</item>
+    <item type="id" name="appsList">false</item>
+    <item type="id" name="progressBar">false</item>
+    <item type="id" name="HintText">false</item>
+    <item type="id" name="miui_seekbar">false</item>
 </resources>
