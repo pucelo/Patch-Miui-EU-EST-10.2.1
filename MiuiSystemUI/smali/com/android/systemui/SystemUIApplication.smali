@@ -6,6 +6,10 @@
 .implements Lcom/android/systemui/miui/PackageEventReceiver;
 
 
+# static fields
+.field private static mGearContext:Landroid/content/Context;
+
+
 # instance fields
 .field private final BASE_SERVICES:[Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
@@ -222,6 +226,14 @@
     iput-object v0, p0, Lcom/android/systemui/SystemUIApplication;->mComponents:Ljava/util/Map;
 
     return-void
+.end method
+
+.method public static getContext()Landroid/content/Context;
+    .locals 1
+
+    sget-object v0, Lcom/android/systemui/SystemUIApplication;->mGearContext:Landroid/content/Context;
+
+    return-object v0
 .end method
 
 .method private startServicesIfNeeded([Ljava/lang/Class;)V
@@ -561,6 +573,8 @@
     const v5, 0x7f1201ef
 
     invoke-virtual {p0, v5}, Lcom/android/systemui/SystemUIApplication;->setTheme(I)V
+
+    sput-object p0, Lcom/android/systemui/SystemUIApplication;->mGearContext:Landroid/content/Context;
 
     invoke-static {p0}, Lcom/android/systemui/SystemUIFactory;->createFromConfig(Landroid/content/Context;)V
 
